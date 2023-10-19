@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0-beta3/css/all.min.css">
+
+    <title>Netflix</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <h2 class="logo">Netflix</h2>
+            <nav>
+                <a href="#" class="active">Home</a>
+                <a href="#">TV Shows</a>
+                <a href="#">Movies</a>
+                <a href="#">Kids</a>
+                <a href="#"><i class="fa-solid fa-user"></i></a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="degradado"><p class="banner-p">Traversing trippy worlds inside his universe simulator, Clancy the space caster explores existential questions about life, death and everything in between.</p></div>
+        <div class="banner-contenedor">
+            
+            <div class="carrusel">
+                <!-- Las películas en modo banner se agregarán aquí -->
+            </div>
+        </div>
+        <div class="recomendado-contenedor">
+            <div class="contenedor-titulo-control">
+                <h3>Recommended for you</h3>
+                <div class="indicadores">
+                    <button></button>
+                    <button></button>
+                </div>
+            </div>
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda" class="flecha-izquierda">
+                    <i class="fa-solid fa-angle-left"></i>
+                </button>
+                <div class="contenedor-carrusel">
+                    <div class="carrusel">
+                        <!-- Las películas en modo tarjeta se agregarán aquí -->
+                    </div>
+                </div>
+                <button role="button" id="flecha-derecha" class="flecha-derecha">
+                    <i class="fa-solid fa-angle-right"></i>
+                </button>
+            </div>
+        </div>
+        <div class="tendencias-contenedor">
+            <div class="contenedor-titulo-control">
+                <h3>Tendencies</h3>
+                <div class="indicadores">
+                    <button></button>
+                    <button></button>
+                </div>
+            </div>
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda2" class="flecha-izquierda2">
+                    <i class="fa-solid fa-angle-left"></i>
+                </button>
+                <div class="contenedor-carrusel2">
+                    <div class="carrusel">
+                        <!-- Más películas en modo tarjeta se agregarán aquí -->
+                    </div>
+                </div>
+                <button role="button" id="flecha-derecha2" class="flecha-derecha2">
+                    <i class="fa-solid fa-angle-right"></i>
+                </button>
+            </div>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/c230c6f1e6.js" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
